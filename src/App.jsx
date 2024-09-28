@@ -1,10 +1,9 @@
-import React from 'react'
-import './card/Card.css'
-import { Card } from './card/Card.jsx'
-import image_cactus from './cactus_img.jpg'
-import './index.css'
+import React from 'react';
+import './card/Card.css';
+import { Card } from './card/Card.jsx';
+import image_cactus from './cactus_img.jpg';
+import './index.css';
 
-//src\cactus_img.jpg
 const cardData = [
   {
     imageUrl: image_cactus,
@@ -13,7 +12,7 @@ const cardData = [
     description: 'From minimalist sculptures to minimalist paintings, this blog will inspire you to appreciate the beauty that lies in simplicity.',
    attribution: 'Annie Spratt'
   }
-]
+];
 
 export function App() {
   return (
@@ -32,4 +31,4 @@ export function App() {
       }
     </section>
   )
-}
+};

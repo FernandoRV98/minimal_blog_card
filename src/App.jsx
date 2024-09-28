@@ -1,3 +1,4 @@
+import React from 'react'
 import './card/Card.css'
 import { Card } from './card/Card.jsx'
 import image_cactus from './cactus_img.jpg'
